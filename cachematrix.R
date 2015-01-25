@@ -6,7 +6,7 @@
 #2)get() - returns the value of matrix 'x'
 #3)reinit() - reinitialises cache to null for the next new matrix inverse calculation
 #3)getinverse() - get matrix data (inversed) from cache and return matrix values
-#4)setinverse() - sets matrix data (inversed) to cache
+#4)setinverse() - sets matrix data (inversed) to cache using lexical scoping rules "<<-"
 
 makeCacheMatrix <- function(x = matrix()) {
 	CACHE <- NULL
